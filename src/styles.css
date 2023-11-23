@@ -96,3 +96,12 @@ footer {
 
   color: rgba(39, 33, 66, 0.4);
 }
+
+.row {
+  display: flex;
+}
+
+.weather-forecast {
+  flex: 1;
+  margin-top: 20px; /* Add some space between current-temperature and weather-forecast */
+}
