@@ -97,21 +97,28 @@ footer {
   color: rgba(39, 33, 66, 0.4);
 }
 
+.weather-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.current-weather {
+  background: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .weather-forecast {
-  margin-top: 20px;
-  text-align: center;
-  color: black;
+  margin-top: 20px; /* Add some space between current-temperature and weather-forecast */
 }
 
-.weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.5;
-}
-
-.weather-forecast-temperature-min {
-  opacity: 0.5;
-}
-
-.weather-forecats-temperatures {
-  font-size: 13px;
+footer {
+  margin-top: 20px; /* Add some space between weather-forecast and footer */
 }
